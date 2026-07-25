@@ -1,14 +1,12 @@
-
-
 /* Color Palette */
 
 :root {
-  --primary-color:          #682f50;
-  --secondary-color:        #fbbc05;
-  --light-accent-color:     #e3b1b2;
-  --background-color:       #ddbebf;
-  --card-background-color:  #f9f6f2;
-  --text-color:             #341828;
+  --primary-color: #682f50;
+  --secondary-color: #fbbc05;
+  --light-accent-color: #e3b1b2;
+  --background-color: #ddbebf;
+  --card-background-color: #f9f6f2;
+  --text-color: #341828;
 }
 
 .card {
@@ -20,6 +18,16 @@
   margin-bottom: 30px;
 }
 
+.page-title-logo {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 5px;
+}
+
+.page-description {
+  display: flex;
+  margin-bottom: 20px;
+}
 
 /* Font Family: google fonts */
 /* <weight>: Use a value from 400 to 900 */
@@ -28,18 +36,21 @@
 body {
   font-family: "Playfair", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: normal;
   font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
 
-h1 h2 {
+h1 {
   font-family: "Playfair", serif;
   font-optical-sizing: auto;
-  font-weight: <weight>;
+  font-weight: 700;
   font-style: normal;
 }
 
-
-
+h2 {
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
