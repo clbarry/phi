@@ -29,6 +29,16 @@
   margin-bottom: 20px;
 }
 
+.card-subtitle {
+  display: flex;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
 /* Font Family: google fonts */
 /* <weight>: Use a value from 400 to 900 */
 /* <uniquifier>: Use a unique and descriptive class name */
