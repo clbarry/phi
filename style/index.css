@@ -33,6 +33,15 @@
   display: flex;
   margin-top: 10px;
   margin-bottom: 10px;
+  font-weight: 800;
+}
+
+.card-sub-subtitle {
+  display: flex;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-weight: normal;
+  font-weight: 700;
 }
 
 .bold-text {
