@@ -4,9 +4,15 @@
   --primary-color: #682f50;
   --secondary-color: #fbbc05;
   --light-accent-color: #e3b1b2;
-  --background-color: #ddbebf;
-  --card-background-color: #f9f6f2;
+  --background-color1: #ecdfe3;
+  --background-color: #ece6e7;
+  --card-background-color: #fdf7f0;
   --text-color: #341828;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
 }
 
 .card {
@@ -44,9 +50,6 @@
   font-weight: 700;
 }
 
-.bold-text {
-  font-weight: bold;
-}
 
 /* Font Family: google fonts */
 /* <weight>: Use a value from 400 to 900 */
@@ -63,13 +66,21 @@ body {
 h1 {
   font-family: "Playfair", serif;
   font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
+  font-weight: 800;
 }
 
 h2 {
   font-family: "Playfair", serif;
   font-optical-sizing: auto;
-  font-weight: normal;
-  font-style: normal;
+  font-weight: 600;
+}
+
+p {
+  font-family: "Playfair", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+}
+
+.bold-text {
+  font-weight: bold;
 }
