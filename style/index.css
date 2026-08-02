@@ -112,6 +112,11 @@ p {
 .page-nav .nav-link {
   display: inline-block;
   padding: 0.35rem 0.75rem;
+  transition: color 0.2s ease;
+}
+
+.page-nav .nav-link:is(:hover, :focus-visible) {
+  color: var(--secondary-color);
 }
 
 
