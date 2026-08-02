@@ -8,6 +8,7 @@
   --text-color: #341828;
 }
 
+
 body {
   background-color: var(--background-color);
   color: var(--text-color);
@@ -59,6 +60,14 @@ body {
   margin-bottom: 10px;
 }
 
+.paper-link-badge {
+  transition: background-color 0.2s ease;
+}
+
+.paper-link-badge:is(:hover, :focus-visible) {
+  background-color: var(--secondary-color);
+}
+
 /* Font Family: google fonts */
 /* <weight>: Use a value from 400 to 900 */
 /* <uniquifier>: Use a unique and descriptive class name */
@@ -105,16 +114,57 @@ p {
   padding: 0.35rem 0.75rem;
 }
 
+
+/* Social Media Link Block Styling - Using .svg social media icons*/
+:root {
+  --social-icon-color: var(--text-color);
+  --social-icon-hover-color: var(--secondary-color);
+  --icon-linkedin: url("/public/linkedin.svg");
+  --icon-scholar: url("/public/google-scholar.svg");
+  --icon-orcid: url("/public/orcid.svg");
+  --icon-instagram: url("/public/instagram.svg");
+  --icon-github: url("/public/github.svg");
+}
+
 .list-inline-item {
   display: inline-block;
   padding: 0.35rem 0.75rem;
   font-family: "Playfair", serif;
   font-optical-sizing: auto;
-  color: var(--text-color);
+  color: var(--primary-color);
 }
 
-.social-icon {
+#social-links .social-link {
+  display: inline-block;
   width: 30px;
   height: 30px;
-  margin-right: 5px;
+  background-color: var(--social-icon-color);
+  transition: background-color 0.2s ease;
+  -webkit-mask: var(--social-icon) center / contain no-repeat;
+  mask: var(--social-icon) center / contain no-repeat;
 }
+
+#social-links .social-link:is(:hover, :focus-visible) {
+  background-color: var(--social-icon-hover-color);
+}
+
+.social-link-linkedin {
+  --social-icon: var(--icon-linkedin);
+}
+
+.social-link-scholar {
+  --social-icon: var(--icon-scholar);
+}
+
+.social-link-orcid {
+  --social-icon: var(--icon-orcid);
+}
+
+.social-link-instagram {
+  --social-icon: var(--icon-instagram);
+}
+
+.social-link-github {
+  --social-icon: var(--icon-github);
+}
+
