@@ -113,14 +113,8 @@ p {
   color: var(--text-color);
 }
 
-#social-links .list-inline-item a {
-color: var(--text-color);
-text-decoration: none;
-transition: color 0.2s ease;
-}
-
-#social-links .list-inline-item a:hover,
-#social-links .list-inline-item a:focus-visible {
-color: var(--secondary-color);
-text-decoration: underline;
+.social-icon {
+  width: 30px;
+  height: 30px;
+  margin-right: 5px;
 }
