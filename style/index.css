@@ -28,12 +28,12 @@ body {
 .page-title-logo {
   display: flex;
   margin-top: 30px;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
 }
 
 .page-description {
   display: flex;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 
 .card-subtitle {
@@ -74,13 +74,20 @@ body {
   font-variation-settings: "wdth" 100;
 }
 
+
 h1 {
-  font-family: "Playfair", serif;
+  font-family: "Ysabeau Infant", sans-serif;
   font-optical-sizing: auto;
   font-weight: 800;
 }
 
 h2 {
+  font-family: "Ysabeau Infant", serif;
+  font-optical-sizing: auto;
+  font-weight: 600;
+}
+
+h3 {
   font-family: "Playfair", serif;
   font-optical-sizing: auto;
   font-weight: 600;
